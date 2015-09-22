@@ -7,12 +7,15 @@ public class playerMovement : MonoBehaviour
 {
     
     public Transform groundCheck;
-    public float rdius;
     public LayerMask ground;
+
+    public float rdius;
+    
 
     private bool _onGround;
     private bool _doubleJumped;
-    private float _jumpHeight = 8;
+
+    private float _jumpHeight = 10;
 
     private void Update()
     {
@@ -38,7 +41,8 @@ public class playerMovement : MonoBehaviour
             Jump();
             _doubleJumped = true;
         }
-      }
+    }
+
     private void Jump()
     {
         GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, _jumpHeight);
