@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 09c049220951fdd4da1ea4cddf0f06b8
-timeCreated: 1442921744
+timeCreated: 1443000481
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -22,6 +22,7 @@ TextureImporter:
     21300030: enemyNinjas_15
     21300032: enemyNinjas_16
     21300034: enemyNinjas_17
+    21300036: enemyNinjas_18
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -245,6 +246,16 @@ TextureImporter:
         y: 32
         width: 28
         height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyNinjas_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 13
+        width: 56
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
